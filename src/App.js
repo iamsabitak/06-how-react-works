@@ -19,13 +19,14 @@ const content = [
 ];
 
 export default function App() {
+
   return (
     <div>
       <Tabbed content={content} />
     </div>
   );
 }
-
+// console.log(<DifferentContent test={47}/>);
 function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
 
